@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -16,7 +17,11 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 text-left">
+          <h4>In order to test the hypothesized that the ideal species to make synthetic beef may be found in the belly button, here visualize the bacterial species data from 153 volunteers’ belly button. This dashboard allows the researchers and research participants to access. Please select Test Subject ID from the dropdown menu to see the bacterial data for each volunteer.</h4>
+      </div> 
       </div>
+       
     </div>
     <div class="row">
       <div class="col-md-2">
@@ -25,7 +30,7 @@
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <div class="panel panel-warning">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
